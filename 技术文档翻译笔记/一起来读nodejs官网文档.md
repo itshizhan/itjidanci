@@ -16,8 +16,13 @@ If the Node.js process is spawned with an IPC channel (see the Child Process and
 
  `child_process.spawn(command[, args][, options])` :使用给定的 command 和 args 中的命令行参数来衍生一个新的进程。
 
-由于同一命令，不同平台的执行方式可能不同，因此有一个不错的跨平台执行 spawn 函数的npm 包：`cross-spawn (A cross platform solution to node's spawn and spawnSync
-)`
+由于同一命令，不同平台的执行方式可能不同，因此有一个不错的跨平台执行 spawn 函数的npm 包：
+
+```js
+npm install cross-spawn 
+//A cross platform solution to node's spawn and spawnSync
+)
+```
 
 
 
