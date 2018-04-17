@@ -21,7 +21,7 @@ If the Node.js process is spawned with an IPC channel (see the Child Process and
 ```js
 npm install cross-spawn 
 //A cross platform solution to node's spawn and spawnSync
-)
+
 ```
 
 
